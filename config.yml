@@ -1,0 +1,15 @@
+default:
+  DB_ALIAS_1:
+    driver: 'Postgres' 
+    server: 'cluster_name.us-east-1.rds.amazonaws.com'
+    uid: 'user_name'
+    pwd: 'paswrodr'
+    port: 5432
+    database: 'db_name'
+  DB_ALIAS_2:
+    driver: 'TODOEDIT' 
+    server: 'cluster_name.us-east-1.rds.amazonaws.com'
+    uid: 'user_name'
+    pwd: 'paswrodr'
+    port: 5432
+    database: 'db_name'
