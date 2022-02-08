@@ -63,7 +63,7 @@ function(req, res) {
 function(req, res){
   res$setHeader("Content-Type", "application/json")
   res$status <- 200L
-  res$body <- sprintf('{it works}')
+  res$body <- sprintf('{PONG: it works}')
   res
 }
 
