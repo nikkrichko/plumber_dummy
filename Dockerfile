@@ -1,12 +1,12 @@
 FROM rocker/tidyverse
 
  
-#RUN sudo apt-get update
-#RUN sudo apt-get -y install libssl-dev 
-#RUN sudo apt-get -y install libxml2
-#RUN sudo apt-get -y install libxml2-dev
-#RUN sudo apt-get -y install curl
-#RUN sudo apt-get -y install r-base-core libssl-dev libcurl4-openssl-dev
+RUN sudo apt-get update
+RUN sudo apt-get -y install libssl-dev 
+RUN sudo apt-get -y install libxml2
+RUN sudo apt-get -y install libxml2-dev
+RUN sudo apt-get -y install curl
+RUN sudo apt-get -y install r-base-core libssl-dev libcurl4-openssl-dev
 RUN sudo apt-get -y install libpq-dev 
 RUN sudo apt-get -y install libjq-dev
  
