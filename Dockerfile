@@ -43,6 +43,7 @@ RUN R -e 'remotes::install_github("Ather-Energy/ggTimeSeries")'
 RUN R -e 'remotes::install_cran("httr")'
 RUN R -e 'remotes::install_cran("conflr")'
 RUN R -e 'remotes::install_cran("formattable")'
+RUN R -e 'remotes::install_cran("RPostgreSQL")'
  
  
 # setup nginx

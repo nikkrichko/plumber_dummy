@@ -2,7 +2,7 @@
 #install.packages("config")
 
 library(DBI)
-library("RPostgreSQL")
+library(RPostgreSQL)
 library(data.table)
 library(here)
 library(config)
