@@ -39,12 +39,8 @@ root$handle("GET", "/_methodinfo", function(req, res) {
 
 
 
-
-
-
-
-
-root$run(port=8000, host='127.0.0.1', swagger = TRUE)
+# root$run(port=8000, host='127.0.0.1', swagger = TRUE)
+root$run(port=8000, host='0.0.0.0', swagger = TRUE)
 
 
 
