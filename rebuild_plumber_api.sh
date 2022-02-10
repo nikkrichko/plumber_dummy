@@ -1,5 +1,5 @@
-docker stop $(docker ps -a -q)
-docker rm $(docker ps -a -q)
+docker stop $(docker ps --filter ancestor=plumber_auth_ssl -a -q)
+docker rm $(docker ps --filter ancestor=plumber_auth_ssl -a -q)
 
 DATE_VAR=$(date +"%d%m.%H%M%S")
 echo $DATE_VAR
